@@ -17,7 +17,7 @@ public class Journey {
 	public void addKilometers(double kilometers){ 
 		System.err.println(this.kilometers);
 		System.err.println(kilometers);
-		this.kilometers += kilometers; //JL runs through main with random, returns 10 times
+		this.kilometers += kilometers; System.out.println("start?");
 	}
 
 	/**

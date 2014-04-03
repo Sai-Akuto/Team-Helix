@@ -7,17 +7,17 @@ public class Journey {
 	 * Class constructor
 	 */
 	public Journey() {
-		this.kilometers = 0; //JL initialize variables
+		this.kilometers = 0; //JL 
 	}
 
 	/**
 	 * Appends the distance parameter to {@link #kilometers}
 	 * @param kilometers the distance traveled 
 	 */
-	public void addKilometers(double kilometers){ 
+	public void addKilometers(double kilometers){
 		System.err.println(this.kilometers);
 		System.err.println(kilometers);
-		this.kilometers += kilometers; //JL runs through main with random, returns 10 times
+		this.kilometers += kilometers;
 	}
 
 	/**
@@ -28,7 +28,7 @@ public class Journey {
 	 * @return the number of services needed per
 	 *         {@link #SERVICE_KILOMETER_LIMIT}
 	 */
-	public int getTotalServices() { //JL calculates total services
+	public int getTotalServices() {
 		return (int) Math.floor(kilometers / SERVICE_KILOMETER_LIMIT); 
 	}
 
