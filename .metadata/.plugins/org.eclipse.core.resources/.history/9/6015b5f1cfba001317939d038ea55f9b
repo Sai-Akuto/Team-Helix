@@ -12,7 +12,7 @@ public class Vehicle {
 	/**
 	 * Class constructor
 	 */
-	public Vehicle() { 
+	public Vehicle() {
 		this.manufacturer = "Central";
 		this.model = "ITWEB";
 		this.makeYear = 2014;

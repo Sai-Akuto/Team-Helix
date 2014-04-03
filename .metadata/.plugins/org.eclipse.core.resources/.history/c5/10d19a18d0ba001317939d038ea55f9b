@@ -14,7 +14,7 @@ public class Journey {
 	 * Appends the distance parameter to {@link #kilometers}
 	 * @param kilometers the distance traveled 
 	 */
-	public void addKilometers(double kilometers){
+	public void addKilometers(double kilometers) {
 		System.err.println(this.kilometers);
 		System.err.println(kilometers);
 		this.kilometers += kilometers;
@@ -29,7 +29,7 @@ public class Journey {
 	 *         {@link #SERVICE_KILOMETER_LIMIT}
 	 */
 	public int getTotalServices() {
-		return (int) Math.floor(kilometers / SERVICE_KILOMETER_LIMIT); 
+		return (int) Math.floor(kilometers / SERVICE_KILOMETER_LIMIT);
 	}
 
 	/**
