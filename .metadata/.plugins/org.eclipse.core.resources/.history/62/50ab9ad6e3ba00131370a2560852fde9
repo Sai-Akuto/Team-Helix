@@ -7,7 +7,7 @@ public class Journey {
 	 * Class constructor
 	 */
 	public Journey() {
-		this.kilometers = 0; //JL 
+		this.kilometers = 0;
 	}
 
 	/**
