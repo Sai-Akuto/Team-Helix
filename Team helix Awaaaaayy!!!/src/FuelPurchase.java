@@ -1,9 +1,10 @@
+//Declare and initialize variables ST
 
 public class FuelPurchase {
 	private double	fuelEconomy;
-
-	public FuelPurchase(double fuelEconomy) {
-		this.fuelEconomy = fuelEconomy;
+	//Constructor method ST
+	public FuelPurchase(double fuelEconomy) { 
+		this.fuelEconomy = fuelEconomy; //Set this class as fuelEconomy on creation ST
 	}
 
 	public double getFuelEconomy() {
@@ -11,6 +12,6 @@ public class FuelPurchase {
 	}
 
 	public void setFuelEconomy(double fuelEconomy) {
-		this.fuelEconomy = fuelEconomy;
+		this.fuelEconomy = fuelEconomy; //Sets value ST
 	}
 }
