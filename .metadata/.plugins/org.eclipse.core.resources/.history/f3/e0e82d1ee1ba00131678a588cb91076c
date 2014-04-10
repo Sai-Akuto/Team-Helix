@@ -1,0 +1,9 @@
+package org.com.jack.kitchener.extended;
+
+public class PerDayRental {
+
+	perDayRental(){
+		
+	}
+	
+}

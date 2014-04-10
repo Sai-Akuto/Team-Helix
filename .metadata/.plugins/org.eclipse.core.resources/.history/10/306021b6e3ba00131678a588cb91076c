@@ -1,0 +1,23 @@
+package org.com.jack.kitchener.extended;
+
+public class PerKphRental {
+	
+	private double dist;
+	private double cost = 1;
+	
+	PerKphRental(double dist){
+		this.dist = dist;
+	}
+	
+	
+	public double getDist(){
+		return dist;
+	}
+	
+	public void setDist(double dist){
+		this.dist = dist;
+	}
+	
+	
+
+}

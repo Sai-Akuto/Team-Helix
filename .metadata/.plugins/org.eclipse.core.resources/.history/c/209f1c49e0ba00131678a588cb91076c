@@ -1,0 +1,21 @@
+
+public class PerKphRental {
+	
+	private double dist;
+	
+	PerKphRental(double dist){
+		this.dist = dist;
+	}
+	
+	
+	public double getDist(){
+		return dist;
+	}
+	
+	public void setDist(double dist){
+		this.dist = dist;
+	}
+	
+	
+
+}

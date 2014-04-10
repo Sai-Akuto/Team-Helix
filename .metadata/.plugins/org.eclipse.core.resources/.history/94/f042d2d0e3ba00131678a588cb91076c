@@ -1,0 +1,31 @@
+package org.com.jack.kitchener.extended;
+
+public class PerDayRental {
+	
+	double dist;
+	int days;
+	double cost =1;
+
+	PerDayRental(double dist, int days){
+		this.dist = dist;
+		this.days = days;
+	}
+	
+	public void setDist(double dist){
+		this.dist= dist;
+	}
+	
+	public void setAll(int days, double dist){
+		this.days = days;
+		this.dist = dist;
+	}
+	
+	public void setDays(int days){
+		this.days = days;
+	}
+	
+	public void setCost(double cost){
+		this.cost = cost;
+	}
+	
+}

@@ -1,0 +1,21 @@
+package org.com.jack.kitchener.extended;
+
+public class PerKphRental extends Rental{
+	
+	private double dist;
+	private double costPerKm = 1;
+	
+	PerKphRental(double dist){
+		this.dist = dist;
+	}
+	
+	
+
+	
+	public void setCost(double cost){
+		this.costPerKm = cost;
+	}
+	
+	
+
+}
