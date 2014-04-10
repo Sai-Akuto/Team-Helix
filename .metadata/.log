@@ -49,7 +49,11 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 !SESSION 2014-04-03 11:05:58.667 -----------------------------------------------
+=======
+!SESSION 2014-04-03 11:48:45.187 -----------------------------------------------
+>>>>>>> 7f95097e3a5ea955837cfe565cc8e26ceb28393e
 =======
 !SESSION 2014-04-03 11:48:45.187 -----------------------------------------------
 >>>>>>> 7f95097e3a5ea955837cfe565cc8e26ceb28393e
@@ -69,7 +73,11 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.android.i
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 !ENTRY org.eclipse.egit.ui 2 0 2014-04-03 11:06:05.999
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2014-04-03 11:48:53.240
+>>>>>>> 7f95097e3a5ea955837cfe565cc8e26ceb28393e
 =======
 !ENTRY org.eclipse.egit.ui 2 0 2014-04-03 11:48:53.240
 >>>>>>> 7f95097e3a5ea955837cfe565cc8e26ceb28393e
@@ -89,7 +97,11 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 !ENTRY org.eclipse.egit.ui 2 0 2014-04-03 11:06:05.999
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2014-04-03 11:48:53.243
+>>>>>>> 7f95097e3a5ea955837cfe565cc8e26ceb28393e
 =======
 !ENTRY org.eclipse.egit.ui 2 0 2014-04-03 11:48:53.243
 >>>>>>> 7f95097e3a5ea955837cfe565cc8e26ceb28393e
@@ -105,6 +117,7 @@ not correct please set the HOME environment variable and restart Eclipse. Otherw
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -134,6 +147,8 @@ not correct please set the HOME environment variable and restart Eclipse. Otherw
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 =======
+=======
+>>>>>>> 7f95097e3a5ea955837cfe565cc8e26ceb28393e
 =======
 >>>>>>> 7f95097e3a5ea955837cfe565cc8e26ceb28393e
 =======
@@ -279,6 +294,9 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 7f95097e3a5ea955837cfe565cc8e26ceb28393e
+=======
 >>>>>>> 7f95097e3a5ea955837cfe565cc8e26ceb28393e
 =======
 >>>>>>> 7f95097e3a5ea955837cfe565cc8e26ceb28393e

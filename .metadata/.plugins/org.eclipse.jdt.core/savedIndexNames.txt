@@ -1,10 +1,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 INDEX VERSION 1.126+C:\Users\041402465\Documents\GitHub\Team-Helix\.metadata\.plugins\org.eclipse.jdt.core
 3974580528.index
 1477701861.index
 1697886153.index
+=======
+INDEX VERSION 1.126+C:\Users\041402463\Documents\GitHub\Team-Helix\.metadata\.plugins\org.eclipse.jdt.core
+1477701861.index
+>>>>>>> 7f95097e3a5ea955837cfe565cc8e26ceb28393e
 =======
 INDEX VERSION 1.126+C:\Users\041402463\Documents\GitHub\Team-Helix\.metadata\.plugins\org.eclipse.jdt.core
 1477701861.index
