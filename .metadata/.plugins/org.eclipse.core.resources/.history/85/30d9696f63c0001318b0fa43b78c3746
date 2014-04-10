@@ -1,0 +1,86 @@
+import org.com.jack.kitchener.extended.PerDayRental;
+import org.com.jack.kitchener.extended.PerKmRental;
+import Josh.*;
+// here
+
+
+public class Vehicle {
+	private String			manufacturer;
+	private String			model;
+	private int				makeYear;
+	private PerKmRental rent;
+	private Journey			journey;
+	private Service servicerec;
+	
+	@SuppressWarnings("unused")
+	private FuelPurchase	fuelPurchase;
+
+	/**
+	 * Class constructor
+	 */
+	public Vehicle() { 
+		this.manufacturer = "Central";
+		this.model = "ITWEB";
+		this.makeYear = 2014;
+		journey = new Journey();
+		fuelPurchase = new FuelPurchase(125.6);
+	}
+
+	/**
+	 * Class constructor specifying name of manufacturer, name of model and year
+	 * of make.
+	 * 
+	 * @param manufacturer
+	 * @param model
+	 * @param makeYear
+	 */																// added rental type
+	public Vehicle(String manufacturer, String model, int makeYear, int RentalType, int daysRented) {
+		this.manufacturer = manufacturer;
+		this.model = model;
+		this.makeYear = makeYear;
+		journey = new Journey();
+		fuelPurchase = new FuelPurchase(125.6);
+		//
+		if(RentalType ==1)
+		{rent = new PerDayRental();}
+		else
+		{rent = new PerKmRental();}
+		//
+	}
+	
+	public Vehicle(String manufacturer, String model, int makeYear) {
+		this.manufacturer = manufacturer;
+		this.model = model;
+		this.makeYear = makeYear;
+		journey = new Journey();
+		fuelPurchase = new FuelPurchase(125.6);
+		//
+		rent = new PerKmRental();
+		//
+	}
+
+
+	/**
+	 * Prints details for {@link Vehicle}
+	 */
+	public void printDetails() {
+		System.out.print("Manufacturer: " + manufacturer);
+		System.out.print(" " + model);
+		System.out.println(" " + makeYear);
+		System.out.printf(Math.round(journey.getKilometers()/1000000000)+ " travelled raised $"+rent.getRent());
+		System.out.println(""+servicerec.speak());
+	}
+
+	/**
+	 * Appends the distance parameter to {@link Journey#getKilometers()}
+	 * 
+	 * @param distance
+	 *            distance of kilometers traveled
+	 */
+	public void addKilometers(double distance) {
+		journey.addKilometers(distance);
+		servicerec = new Service(distance);
+		rent.setDist(distance);
+	}
+
+}

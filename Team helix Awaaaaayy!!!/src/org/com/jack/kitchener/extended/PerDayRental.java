@@ -1,14 +1,9 @@
 package org.com.jack.kitchener.extended;
 
-public class PerDayRental extends Rental {
+public class PerDayRental extends PerKmRental {
 
 	double costPerDay =100;
 
-	PerDayRental(double dist, int days){
-		this.dist = dist;
-		this.days = days;
-	}
-	
 
 	
 	public void setAll(int days, double dist){
@@ -16,7 +11,9 @@ public class PerDayRental extends Rental {
 		this.dist = dist;
 	}
 	
-
+	public double getRent(){
+		return dist*costPerDay;
+	}
 	
 	public void setCost(double costPerDay, double costPerKm){
 		this.costPerDay = costPerDay;
